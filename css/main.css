@@ -1,0 +1,33 @@
+/* :hover */
+input:hover {
+    border-color: #666;
+  }
+  
+  /* :focus */
+  input:focus {
+    border-color: #00bfff;
+    box-shadow: 0 0 5px #00bfff;
+  }
+  
+  /* :disabled */
+  input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* has an error */
+  input.error {
+    border-color: #ff0000;
+  }
+  
+  /* has an error and :hover */
+  input.error:hover {
+    border-color: #ff0000;
+  }
+  
+  /* has an error and :focus */
+  input.error:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+  }
+  

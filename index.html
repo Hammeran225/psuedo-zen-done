@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Layouts</title>
+  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <style>
+    /* Primary button styles */
+    button {
+      background-color: blue;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: navy;
+    }
+
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 5px 2px navy;
+    }
+
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Secondary button styles */
+    button.secondary {
+      background-color: lightgray;
+      color: black;
+    }
+
+    button.secondary:hover {
+      background-color: darkgray;
+    }
+
+    button.secondary:focus {
+      outline: none;
+      box-shadow: 0 0 5px 2px gray;
+    }
+
+    button.secondary:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Inline and nav link styles */
+    a {
+      color: blue;
+      text-decoration: none;
+      border-bottom: 1px solid blue;
+    }
+
+    a:hover {
+      color: navy;
+      border-bottom-color: navy;
+    }
+
+    a:focus {
+      outline: none;
+      box-shadow: 0 0 5px 2px navy;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Input styles */
+    input[type="text"],
+    textarea {
+      border: 1px solid gray;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    input[type="text"]:hover,
+    textarea:hover {
+      border-color: navy;
+    }
+
+    input[type="text"]:focus,
+    textarea:focus {
+      outline: none;
+      box-shadow: 0 0 5px 2px navy;
+      border-color: navy;
+    }
+
+    input[type="text"].error,
+    textarea.error {
+      border-color: red;
+    }
+
+    input[type="text"].error:hover,
+    textarea.error:hover {
+      border-color: darkred;
+    }
+
+    input[type="text"].error:focus,
+    textarea.error:focus {
+      outline: none;
+      box-shadow: 0 0 5px 2px red;
+      border-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Place your site's HTML here -->
+  <header>
+    <h1>Pseudo Zen
+
+<body>
+  <!-- Place your site's HTML here -->
+  <header>
+    <h1>Pseudo Zen Garden</h1>
+  </header>
+  <main>
+    <div>
+      <h2>Buttons</h2>
+      <div>
+        <button>Primary</button>
+        <button>Secondary</button>
+        <button>Error</button>
+      </div>
+    </div>
+    <div>
+      <h2>Links</h2>
+      <div>
+        <a href="#">Primary link</a>
+        <a href="#">Secondary link</a>
+      </div>
+    </div>
+    <div>
+      <h2>Form elements</h2>
+      <form action="#">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" />
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+
+        <button>Save</button>
+      </form>
+    </div>
+  </main>
+  <footer>&copy; 2023</footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
